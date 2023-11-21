@@ -52,3 +52,5 @@ Thumbs.db
 company.properties
 local.properties
 artifactory.properties
+.gradle/
+build/
