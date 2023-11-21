@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home_tab">Home</string>
+    <string name="button_crash_feature">DriveWell Crash Feature</string>
+    <string name="button_vehicle_list">Vehicles</string>
+    <string name="title_home">DriveWell SDK Reference App</string>
+    <string name="trip_detection_suppression_banner_description">Trip recording is currently blocked due to low battery.</string>
+</resources>

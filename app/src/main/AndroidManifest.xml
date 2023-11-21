@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permission used for the internal functionality of the DriveWell SDK -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Bluetooth permissions mandatory for App+Tag apps for OS level <= 30. -->
+    <!-- Optionally request BLUETOOTH for App-Only if the current OS level is <= 30, this improves trip detection -->
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <!-- BLUETOOTH_ADMIN permissions mandatory for App+Tag apps for OS level <= 30. -->
+    <!-- Not needed for App only recording. -->
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <!-- BLUETOOTH_CONNECT permissions mandatory for App+Tag apps for OS level >= 31. -->
+    <!-- Optionally request BLUETOOTH_CONNECT for App-Only and the current OS level is >= 31, this improves trip detection -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <!-- BLUETOOTH_SCAN permissions mandatory for App+Tag apps for OS level >= 31. -->
+    <!--Reason of adding neverForLocation flag: In version 12.2.0,
+        the SDK has been enhanced to leverage this Android capability to record App+Tag trips even when users disable location.-->
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation"
+        tools:targetApi="s" />
+
+    <!-- Recommended on Samsung, Xiaomi, Huawei & OnePlus phones -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <!-- This permission is required to post notifications to the status bar and notification drawer in case of OS level >= 33. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!--    Uncomment if the app is only meant to run in app-only mode. Gyro is not required for App+Tag -->
+    <!--    Technically, gyro is not mandatory for App-Only either, but phone distraction will not be recorded. -->
+    <!--    <uses-feature-->
+    <!--        android:name="android.hardware.sensor.gyroscope"-->
+    <!--        android:required="true" />-->
+
+    <application
+        android:name=".ReferenceApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Launcher"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        tools:replace="android:supportsRtl">
+
+        <!-- Set metadata for Google Maps API v2 -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${debugGoogleMapsApiKey}" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="userPortrait"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="LockedOrientationActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- WorkManager intializer used for crash status updates. -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"
+                tools:node="remove" />
+        </provider>
+
+    </application>
+</manifest>

@@ -1,0 +1,2 @@
+* @andras-homolya-supercharge @gaborandai @kornelVarga97 @fandor92 @evezden @gaborhos
+CODEOWNERS @Censio/sre

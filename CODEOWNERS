@@ -1,0 +1,6 @@
+# This file is managed by terraform in https://github.com/Censio/github-config/
+# Any changes made to this file will be overwritten
+*               @Censio/SuperCharge-Android @bendeguztajti @gaborhos @marosfalvig @Censio/SuperCharge-Project-Managers
+cloudformation/ @Censio/SRE
+*Jenkinsfile    @Censio/SRE
+CODEOWNERS      @Censio/SRE

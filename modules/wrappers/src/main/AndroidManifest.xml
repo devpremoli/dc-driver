@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- Service that provides customization options for the DriveWell SDK. Creating a subclass like this is mandatory -->
+        <service
+            android:name=".service.ReferenceAppTelematicsService"
+            android:exported="false"
+            android:foregroundServiceType="location"
+            android:persistent="true" />
+
+        <!-- Service that receives push messages. Must be subclassed from DriveWell's base class for full functionality -->
+        <service
+            android:name=".push.ReferenceAppPushService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Service that receives trip recording issue notifications from the SDK. -->
+        <receiver
+            android:name=".service.ServiceAnomalyReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.cmtelematics.action.WARNING_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <!-- This boot receiver is used to ensure that the app is relaunched on device reboot. Doesn't do anything else in particular. -->
+        <receiver
+            android:name=".service.BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

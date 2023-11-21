@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore regexp="Try-with-resources requires API level 19" />
+        <ignore regexp="Call requires API level 19 \(current min is \d+\): `java\.lang\.Throwable#addSuppressed`" />
+    </issue>
+
+    <issue id="ParcelCreator">
+        <ignore path="**/*.kt"/> <!-- Parcelize is used to generate the implementation-->
+    </issue>
+
+    <issue id="UnusedAttribute">
+        <ignore regexp="paddingVertical"/>
+        <ignore regexp="paddingHorizontal"/>
+        <ignore regexp="layout_marginHorizontal"/>
+        <ignore regexp="layout_marginVertical"/>
+    </issue>
+
+    <issue id="ButtonCase" severity="ignore"/>
+    <issue id="VectorRaster" severity="ignore"/>
+    <issue id="VectorPath" severity="informational"/>
+    <issue id="DiffUtilEquals" severity="ignore"/>
+    <issue id="VisibleForTests" severity="error"/>
+    <issue id="MissingEmptyLinesAroundBlockStatements" severity="error"/>
+</lint>

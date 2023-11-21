@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_title_tag_detected">Tag Detected</string>
+    <string name="dialog_text_tag_detected">Please confirm the number printed on your Tag is %1$s</string>
+    <string name="dialog_button_confirm">CONFIRM</string>
+    <string name="dialog_button_not_my_tag">NOT MY TAG</string>
+    <string name="link_tag_title">Link your Tag</string>
+    <string name="link_tag_page_text_line1">Tap the “Link Tag” button below. Then press and hold the button on the Tag for a few seconds until the light blinks.</string>
+    <string name="link_tag_page_text_line2">Place the Tag next to your phone. When your phone detects the Tag, a confirmation will appear.</string>
+    <string name="link_tag_start_button">Link Tag</string>
+    <string name="tag_linked_title">Congrats!</string>
+    <string name="tag_linked_done">Done</string>
+    <string name="tag_linked_subtitle">Your Tag is now linked.</string>
+    <string name="title_toolbar_vehicle_list">Vehicles</string>
+    <string name="title_vehicle_list">Your vehicles</string>
+    <string name="subtitle_vehicle_list">View vehicle info or add another Tag</string>
+    <string name="button_link_tag">Link Tag</string>
+    <string name="button_add_vehicle">Add another vehicle</string>
+    <string name="button_add_vehicle_empty_list">Add a vehicle</string>
+    <string name="title_tag_linking">Tag Linking</string>
+    <string name="title_create_a_vehicle">Create a vehicle</string>
+    <string name="field_vehicle_nickname">Vehicle nickname</string>
+    <string name="field_vehicle_make">Make (optional)</string>
+    <string name="field_vehicle_model">Model (optional)</string>
+    <string name="button_next">Next</string>
+    <string name="subtitle_create_a_vehicle">Enter vehicle information</string>
+    <string name="loading">Loading…</string>
+    <string name="table_header_vehicle_information">VEHICLE INFORMATION</string>
+    <string name="details_row_name">Name</string>
+    <string name="details_row_make">Make</string>
+    <string name="details_row_model">Model</string>
+    <string name="table_header_tag_information">TAG INFORMATION</string>
+    <string name="table_header_tag_info_loading">LOADING TAG INFORMATION…</string>
+    <string name="details_row_tag_mac">Tag Number</string>
+    <string name="details_row_tag_status">Status</string>
+    <string name="details_row_tag_last_connected">Last Connected</string>
+    <string name="details_row_tag_versions">Version</string>
+    <string name="tag_status_connected">Connected</string>
+    <string name="tag_status_not_connected">Not Connected</string>
+    <string name="error_dialog_no_tag_found_message">We couldn’t find any Tags to link! Be sure to press the button on the Tag for a few seconds and hold it close to the phone.</string>
+</resources>

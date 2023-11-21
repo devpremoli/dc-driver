@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Trip list-->
+    <string name="title_trip_list">Trips</string>
+
+    <string name="button_manual_trip_recording_start">Start Trip Recording</string>
+    <string name="button_automatic_trip_recording_in_progress">Drive detected</string>
+    <string name="button_manual_record_in_progress">Recording %1$02d:%2$02d:%3$02d</string>
+    <string name="button_standby_mode_enabled">Standby Mode Enabled</string>
+
+    <string name="trip_is_processing">Trip is processing</string>
+    <string name="trip_is_recording">Trip is still recording.</string>
+    <string name="trip_an_error_occurred">Something failed with this Drive.</string>
+
+    <string name="trip_start_date_time">**%1$s** at **%2$s** **%3$s**</string>
+    <string name="trip_start_finish_city">From **%1$s** to **%2$s**</string>
+    <string name="trip_start_finish_city_location_not_available">Location data not available.</string>
+    <string name="trip_start_finish_city_no_phone_present">No Phone Present</string>
+
+    <string name="trip_distance">%.1f miles</string>
+
+    <plurals name="trip_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="trip_events">
+        <item quantity="one">%d event</item>
+        <item quantity="other">%d events</item>
+    </plurals>
+
+    <string name="failed_to_load_trip_detail">Failed to load trip detail</string>
+
+    <!--Trip details-->
+    <string name="trip_details_driver">Driver</string>
+    <string name="trip_details_passenger">Passenger</string>
+    <string name="trip_details_not_a_car">Not a Car</string>
+
+    <!--Trip details - Infractions-->
+    <string name="trip_details_distraction_maker_title">Phone Use, %s</string>
+    <string name="trip_details_cornering_maker_title">Cornering, %s</string>
+    <string name="trip_details_speeding_maker_title">Speeding, %s</string>
+    <string name="trip_details_braking_maker_title">Braking, %s</string>
+    <string name="trip_details_acceleration_maker_title">Acceleration, %s</string>
+
+    <string name="trip_details_maker_info_window_title">%1$s, %2$s</string>
+    <string name="trip_details_distraction_maker_info_window_description">Duration of %1$02d:%2$02d</string>
+    <string name="trip_details_speeding_maker_info_window_description">Limit: %1$d | Your Speed: %2$d mph </string>
+
+    <string name="trip_details_event_dialog_title_actual_speed">, %d mph</string>
+    <string name="trip_details_event_dialog_cornering_description">A Cornering event is marked when the user is driving over a “safe acceleration” for turning (more than 1/3 G). Driving over this threshold may put you at risk of skidding or getting into an accident, particularly if the pavement is slick due to rain or ice.</string>
+    <string name="trip_details_event_dialog_speeding_description">A Speeding event is marked when the user is driving above a “safe speed.” This is based on a threshold over the posted speed limit for the relevant road.</string>
+    <string name="trip_details_event_dialog_braking_description">A Braking event is marked when the user brakes quickly (a change in more than 1/3 G), rather than coming to a gradual stop. Consistent hard braking events may mean that the user is tailgating or distracted.</string>
+    <string name="trip_details_event_dialog_acceleration_description">An Acceleration event is marked when the user accelerates too quickly (more than 1/3 G), rather than speeding up gradually. Consistent harsh acceleration may put you at risk of an accident.</string>
+    <string name="trip_details_event_dialog_distraction_description_part_1">A Phone Use event is marked when:</string>
+    <string name="trip_details_event_dialog_distraction_description_bulletpoint_1">The phone screen is on</string>
+    <string name="trip_details_event_dialog_distraction_description_bulletpoint_2">The phone is moving</string>
+    <string name="trip_details_event_dialog_distraction_description_bulletpoint_3">The car is moving</string>
+    <string name="trip_details_event_dialog_distraction_description_part_2">These factors indicate that the driver’s eyes and attention are away from the road.</string>
+
+    <!--Transportation mode selector-->
+    <string name="transportation_mode_dialog_title">Choose One</string>
+    <string name="transportation_mode_dialog_description">How did you travel on this trip?</string>
+    <string name="transportation_mode_dialog_cancel_button">Cancel</string>
+</resources>

@@ -1,0 +1,33 @@
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates
+                src="user"
+                tools:ignore="AcceptsUserCertificates" />
+        </trust-anchors>
+    </base-config>
+    <!--    Ucomment to enable cert pinning -->
+    <!--    <domain-config>-->
+    <!--        <domain includeSubdomains="true">cmtelematics.com</domain>-->
+    <!--        <pin-set>-->
+    <!--            <pin digest="SHA-256">cgN8/rg8j/AvNP0p0gRBoRJIDT/XwkXL+wbvCZc6W2A=</pin>-->
+    <!--            <pin digest="SHA-256">io4TmWfpOgHHlgJGhIwUpS+h7+pzklGcRefPkvilGsI=</pin>-->
+    <!--            <pin digest="SHA-256">83riL8O56dCDzfop/EgVCjNjYNAWSeebc5HrMgVOpMw=</pin>-->
+    <!--            <pin digest="SHA-256">H6VeL+vPgXd80BdWvJLGWqeZYYY84w6eZ0ju0BczuuI=</pin>-->
+    <!--            <pin digest="SHA-256">rCsW7q2KAUEnWsqzK933twq3srOowcRakWVBCFKGp2Y=</pin>-->
+    <!--            <pin digest="SHA-256">e842wPLEk7rC8fHHWSnS+rWjXW3gAD7jltWdXAMhKbw=</pin>-->
+    <!--            <pin digest="SHA-256">dEo+CRKf5nwWpgJBlO46JxYe7LNKiVASJvHTDeyRrIU=</pin>-->
+    <!--            <pin digest="SHA-256">++MBgDH5WGvL9Bcn5Be30cRcL0f5O+NyoXuWtQdX1aI=</pin>-->
+    <!--            <pin digest="SHA-256">f0KW/FtqTjs108NpYj42SrGvOB2PpxIVM8nWxjPqJGE=</pin>-->
+    <!--            <pin digest="SHA-256">NqvDJlas/GRcYbcWE8S/IceH9cq77kg0jVhZeAPXq8k=</pin>-->
+    <!--            <pin digest="SHA-256">9+ze1cZgR9KO1kZrVDxA4HQ6voHRCSVNz4RdTCx4U8U=</pin>-->
+    <!--            <pin digest="SHA-256">KwccWaCgrnaw6tsrrSO61FgLacNgG2MMLq8GE6+oP5I=</pin>-->
+    <!--        </pin-set>-->
+    <!--        &lt;!&ndash; TrustKit Android API &ndash;&gt;-->
+    <!--        <trustkit-config enforcePinning="true">-->
+    <!--            &lt;!&ndash; Add a reporting URL for pin validation reports &ndash;&gt;-->
+    <!--            &lt;!&ndash;<report-uri>http://report.datatheorem.com/log_report</report-uri>&ndash;&gt;-->
+    <!--        </trustkit-config>-->
+    <!--    </domain-config>-->
+</network-security-config>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Settings-->
+    <string name="title_settings">Settings</string>
+    <string name="row_app_version">App Version</string>
+    <string name="button_sign_out">Sign Out</string>
+    <string name="dialog_title_sign_out">Sign Out</string>
+    <string name="dialog_text_sign_out">Are you sure you want to sign out?</string>
+    <string name="row_trip_completion_notification">Trip Completion Notification</string>
+    <string name="row_audio_alerts">Audio Alerts</string>
+    <string name="row_upload_wifi_only">Upload on Wifi Only</string>
+    <string name="button_open_debug_menu">Debug Menu</string>
+
+    <!--Debug menu-->
+    <string name="title_debug_menu">Debug Menu</string>
+    <string name="row_server_url">Server URL</string>
+    <string name="row_server_url_button">URL</string>
+    <string name="row_sdk_version">SDK Version</string>
+    <string name="row_tag_or_phone_user">Tag or Phone User</string>
+    <string name="tag_user_type">Tag</string>
+    <string name="phone_user_type">Phone</string>
+    <string name="cert_pinning_enabled">Enabled</string>
+    <string name="cert_pinning_disabled">Disabled</string>
+    <string name="tag_is_disconnected">Tag is disconnected</string>
+
+    <string name="row_cert_pinning">Cert Pinning</string>
+    <string name="row_user_id">userID</string>
+    <string name="row_device_id">deviceID</string>
+    <string name="row_mac_address_for_connected_tag">mac address for Connected Tag</string>
+    <string name="row_push_token">PushToken</string>
+    <string name="row_force_crash_button">Force Crash button</string>
+    <string name="row_force_crash_button_button">Crash</string>
+    <string name="row_user_e_mail">user e-mail</string>
+
+    <string name="row_copy_button">Copy</string>
+    <string name="toast_copied">Copied to clipboard</string>
+
+    <string name="row_standby_mode">Standby Mode</string>
+    <string name="standby_mode_off">Standby Mode Off</string>
+    <string name="standby_mode_on">Standby Mode On until %1$s, %2$s</string>
+    <string name="standby_options_title">Standby Options</string>
+    <string name="standby_options_cancel">Cancel</string>
+
+    <string-array name="standby_mode_options">
+        <item>Turn off standby mode</item>
+        <item>Standby for 1 minute</item>
+        <item>Standby for 1 hour</item>
+        <item>Standby for 6 hours</item>
+        <item>Standby for 1 day</item>
+        <item>Standby for 3 days</item>
+        <item>Standby for 7 days</item>
+    </string-array>
+</resources>

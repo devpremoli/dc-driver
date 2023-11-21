@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DW SDK Ref</string>
+
+    <string name="error_dialog_duplicate_email">This email is already in use. Please use a different email.</string>
+    <string name="error_dialog_account_not_found">We don\'t recognize this email. Please try another.</string>
+    <string name="error_dialog_wrong_auth_code">This is not a valid code. Please check it and try again.</string>
+    <string name="error_dialog_no_gyro_app_only">Gyroscope is not present. Phone distraction monitoring will not work.</string>
+    <string name="error_dialog_user_not_authorized">User is not authorized. Please log in again.</string>
+    <string name="error_additional_http_code">HTTP code: %d</string>
+
+    <string name="error_dialog_user_not_authenticated">We have encountered an issue. Info: User is not authenticated</string>
+    <string name="error_dialog_user_already_authenticated">We have encountered an issue. Info: User is already authenticated</string>
+
+    <string name="error_dialog_generic_with_tech_info">We have encountered an issue. Please check your internet connection or try again later. Tech info: %s</string>
+    <string name="error_dialog_generic_authentication">We have encountered an issue. Please check your internet connection or try again later. SDK error code: %s</string>
+</resources>

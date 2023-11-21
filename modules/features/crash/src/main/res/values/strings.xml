@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">crash</string>
+
+    <string name="crash_assist_tutorial_tour_start_title">Introducing CrashAssist</string>
+    <string name="crash_assist_tutorial_tour_start_body">Get help instantly in a crash with automatic crash detection and 24/7 emergency response.</string>
+    <string name="crash_assist_tutorial_tour_button">Next</string>
+
+    <string name="crash_assist_tutorial_tour_step_one_title">Crash Detected</string>
+    <string name="crash_assist_tutorial_tour_step_one_body">CrashAssist detects a crash using your phone’s sensors.</string>
+
+    <string name="crash_assist_tutorial_tour_step_two_title">Location Found</string>
+    <string name="crash_assist_tutorial_tour_step_two_body">CrashAssist pinpoints your location - and we’ll send help if needed.</string>
+
+    <string name="crash_assist_tutorial_tour_step_three_title">Driver Notified</string>
+    <string name="crash_assist_tutorial_tour_step_three_body">CrashAssist will notify you. If we don’t hear from you, we’ll call you.</string>
+
+    <string name="crash_assist_tutorial_tour_step_four_title">Driver Called</string>
+    <string name="crash_assist_tutorial_tour_step_four_body">CrashAssist calls you 3 times. If we don’t hear from you, we’ll send help.</string>
+
+    <string name="crash_assist_tutorial_tour_step_five_title">Add us to your contacts</string>
+    <string name="crash_assist_tutorial_tour_step_five_body">Easily recognize CrashAssist when we call to get you help in a crash.</string>
+    <string name="crash_assist_tutorial_contact_us_button">Add to Contacts</string>
+    <string name="crash_assist_tutorial_add_contact_later">I\'ll add it later</string>
+    <string name="crash_assist_skip_tutorial">Skip tutorial</string>
+    <string name="crash_assist_tutorial_tour_step_done_title">All set! You’re protected by CrashAssist.</string>
+    <string name="crash_assist_tutorial_done_button">Done</string>
+
+    <string name="crash_assist_title">CrashAssist</string>
+    <string name="crash_assist_disable_text">CrashAssist is disabled.</string>
+    <string name="crash_assist_disable_info">Tap the toggle below to enable CrashAssist and protect yourself on the road.</string>
+    <string name="crash_assist_enable_text">You\'re Protected.</string>
+    <string name="crash_assist_enable_info">CrashAssist is enabled and is protecting you on every trip. Safe travels!</string>
+    <string name="crash_assist_simulate_crash_button">Simulate Crash</string>
+
+    <!--  Crash detected flow  -->
+    <string name="ambulance_confirm_dialog_title">Do you need an ambulance?</string>
+    <string name="ambulance_confirm_dialog_message">We will call you to confirm.</string>
+    <string name="crash_detected_title">Were you in a crash?</string>
+    <string name="crash_detected_sub_title">If you don’t respond, we’ll assume you need help and call you in 60 secs.</string>
+    <string name="crash_detected_tutorial_tour_button">Next</string>
+    <string name="crash_detected_seconds_text">seconds</string>
+    <string name="crash_detected_negative_title">Glad to hear that.</string>
+    <string name="crash_detected_negative_sub_title">
+        We have your back in the case of a crash and we’re constantly working to improve our product performance.
+    </string>
+    <string name="crash_detected_negative_done_button">@string/crash_assist_tutorial_done_button</string>
+    <string name="crash_ambulance_requested_title">Help is on the way.</string>
+    <string name="crash_ambulance_requested_sub_title">We will call you ASAP.</string>
+    <string name="crash_ambulance_report_a_claim_button">Report a claim</string>
+    <string name="crash_ambulance_request_a_tow_button">Request a tow</string>
+
+    <string name="crash_ambulance_cancelled_title">What to do next:</string>
+
+    <string name="crash_assistance_tip_one">Safety first</string>
+    <string name="crash_assistance_tip_one_description">Move away from traffic if you can. If anyone is injured, call 911.</string>
+    <string name="crash_assistance_tip_two">Exchange information</string>
+    <string name="crash_assistance_tip_two_description">Don\'t discuss who is at fault. Exchange driver\'s license number and insurance details with other drivers.</string>
+    <string name="crash_assistance_tip_three">Take photos</string>
+    <string name="crash_assistance_tip_three_description">Take photos of any car damage as well as photos of the crash scene.</string>
+    <string name="simulate_crash_with_delay">A crash will be simulated in 15 seconds.</string>
+
+    <string name="crash_info_dialog_default_title">TODO</string>
+    <string name="crash_info_dialog_report_a_claim_description">Implement your report a claim flow…</string>
+    <string name="crash_info_dialog_request_a_tow_description">Implement your request a tow flow…</string>
+</resources>

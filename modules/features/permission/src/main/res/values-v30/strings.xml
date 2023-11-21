@@ -1,0 +1,7 @@
+<resources>
+    <!--Permission-->
+    <string name="fine_location_permission_description">To record trips, DW SDK Ref needs location access both while using the app and when the app is in the background.</string>
+
+    <!--Trapdoor-->
+    <string name="fine_location_trapdoor_description">To record your drives, DW SDK Ref needs the Location permission set properly. You must select “While using the app” on the next screen.</string>
+</resources>

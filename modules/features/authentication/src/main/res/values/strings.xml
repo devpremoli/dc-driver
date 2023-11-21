@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="register_email_title">Enter your email</string>
+    <string name="register_tag_user">Tag User</string>
+    <string name="authentication_next">Next</string>
+    <string name="email_placeholder">user@example.com</string>
+    <string name="email_label">Email</string>
+
+    <string name="verify_code_title">Enter the 4-digit code we emailed</string>
+    <string name="code_placeholder">e.g. 1234</string>
+    <string name="code_label">Code</string>
+    <string name="title_existing_user">Returning User Login</string>
+    <string name="title_register_email">New User Login</string>
+
+    <string name="resend_pin_description">I didn’t get the code.<annotation type="link"> Resend email</annotation></string>
+</resources>

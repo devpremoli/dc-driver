@@ -1,0 +1,10 @@
+{
+    "comment": "This file is maintained by https://github.com/Censio/github-config/ any changes will be overwritten",
+    "name": "cmt-reference-app-android",
+    "description": "",
+    "team_owner": "SuperCharge",
+    "slack_channel": "#squad-spoc",
+    "platform": "Mobile",
+    "usage": "Prod",
+    "sonarqube_status": true
+}

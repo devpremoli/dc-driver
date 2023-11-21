@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sdk_app_title">SDK Reference App</string>
+    <string name="error_dialog_generic">We have encountered an issue. Please check your internet connection or try again later.</string>
+    <string name="error_dialog_dismiss_generic">OK</string>
+    <string name="error_dialog_title_generic">Uh oh!</string>
+    <string name="error_dialog_try_again_generic">TRY AGAIN</string>
+</resources>

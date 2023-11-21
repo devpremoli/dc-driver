@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Permissions-->
+    <string name="permission_next_button">Next</string>
+    <string name="permission_tap_to_enable">Tap to Enable</string>
+    <string name="permission_instruction_step_number">%d.</string>
+
+    <string name="location_permission_title">Location</string>
+
+    <string name="fine_location_permission_description">DW SDK Ref needs location access enabled to record your drives. Select “Allow” on the next screen.</string>
+    <string name="fine_location_permission_instruction">First, tap Next and then turn on your location by selecting **“While using the app.”**</string>
+
+    <string name="background_location_permission_description">DW SDK Ref needs location access set to **“Allow all the time”** so it can automatically record your drives.</string>
+    <string name="background_location_permission_instruction">Please tap Next to be taken to Settings.</string>
+
+    <string name="fine_and_background_location_permission_description">To record trips, DW SDK Ref needs location access both while using the app and when the app is in the background. Without location set to **“Allow all the time”**, DW SDK Ref will not work.</string>
+
+    <string name="precise_location_permission_description">For DW SDK Ref to record your trips, first tap **“While using the app.”**</string>
+    <string name="only_precise_location_permission_description">For DW SDK Ref to record your trips, tap **“Change to precise location.”**</string>
+
+    <string name="activity_permission_title">Activity</string>
+    <string name="activity_permission_description">Activity data is needed to accurately detect that you are moving in a vehicle.</string>
+    <string name="activity_permission_instruction_step">To record your drives, select **“Allow”** on the next screen.</string>
+
+    <string name="bluetooth_permission_title">Bluetooth</string>
+    <string name="bluetooth_permission_description">DW SDK Ref needs access to Bluetooth so it can communicate with the Tag to record your trips. Select “Allow” on the next screen.</string>
+
+    <string name="battery_optimization_permission_title">Turn off Optimize Battery</string>
+    <string name="battery_optimization_permission_description">To record trips, DW SDK Ref must not be in battery optimization mode. Select “Allow” on the next screen.</string>
+
+    <string name="notification_permission_title">Allow Notifications</string>
+    <string name="notification_permission_description">DW SDK Ref will send you notifications **when trips are not recording** so you get back on track.</string>
+    <string name="notification_permission_instruction">Select **“Allow”** on the next screen to make sure you receive these notifications.</string>
+    <string name="notification_permission_further_instruction">If a prompt does not appear, you can enable notifications in app settings.</string>
+
+    <!--Trap doors-->
+    <string name="permission_fix_the_problem_button">Fix the problem!</string>
+    <string name="trapdoor_open_settings_button">Open Settings</string>
+    <string name="trapdoor_title">Houston, we have a problem.</string>
+    <string name="trapdoor_steps_description">Follow these steps:</string>
+    <string name="trapdoor_instruction_step_1">Tap the button below to go to DW SDK Ref’s App Info screen</string>
+    <string name="trapdoor_instruction_step_2">Tap **Permissions**</string>
+
+    <string name="fine_location_trapdoor_description">To record your drives, DW SDK Ref needs the Location permission set properly. You must select “Allow” on the next screen.</string>
+
+    <string name="background_location_trapdoor_description">To record your drives, DW SDK Ref needs the Location permission set properly. You must select “Allow all the time” on the next screen.</string>
+
+    <string name="fine_and_background_location_trapdoor_description">To record your drives, DW SDK Ref needs the Location permission set properly. You must select “Allow all the time” on the next screen.</string>
+
+    <string name="precise_and_background_location_trapdoor_description">Location needs to be set to **“Allow all the time”** and **“Precise”** to record your trips.</string>
+    <string name="precise_and_background_location_trapdoor_instruction">Tap **“Open Settings”** to continue.</string>
+
+    <string name="gps_trapdoor_description">To record your drives, DW SDK Ref needs Location Accuracy toggled on.</string>
+    <string name="gps_trapdoor_steps_description">Follow these quick steps:</string>
+    <string name="gps_trapdoor_instruction_step_1">Tap the button below to go to settings</string>
+    <string name="gps_trapdoor_instruction_step_2">Toggle **Location Accuracy** on</string>
+
+    <string name="activity_trapdoor_description">DW SDK Ref needs access to Activity data to detect you are moving in a vehicle. Select “Allow” on the next screen.</string>
+
+    <string name="battery_optimization_trapdoor_description">DW SDK Ref has been restricted from collecting trip data in the background.</string>
+    <string name="battery_optimization_trapdoor_instruction_step_1">Tap the button below to go to DW SDK Ref’s Battery settings.</string>
+    <string name="battery_optimization_trapdoor_instruction_step_2">Make sure that:</string>
+
+    <string name="battery_optimization_trapdoor_sub_instruction_step_1">The app can use battery in the background</string>
+    <string name="battery_optimization_trapdoor_sub_instruction_step_2">Battery usage os not being optimized</string>
+    <string name="battery_optimization_trapdoor_sub_instruction_step_3">Other battery settings are turned off</string>
+</resources>

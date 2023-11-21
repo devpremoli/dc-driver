@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel_name" translatable="false">Services</string>
+    <string name="warning_channel_name" translatable="false">Warnings</string>
+    <string name="warning_channel_description">Warnings</string>
+
+    <string name="service_notification">Telematics in Action!</string>
+    <string name="service_notification_unknown_suspension">Unknown reason for suspension</string>
+    <string name="service_notification_no_reason_for_suspension">SDK Was suspended, but nonStartReasons is empty!</string>
+    <string name="service_notification_waiting_for_trip">Waiting to record your next trip</string>
+    <string name="service_notification_idle">Idle</string>
+    <string name="service_notification_recording">Currently recording your trip</string>
+    <string name="service_notification_standby">Currently on standby mode</string>
+    <plurals name="service_notification_standby_for_x_hours">
+        <item quantity="one">Standby enabled for %1$s hour</item>
+        <item quantity="other">Standby enabled for %1$s hours</item>
+    </plurals>
+    <string name="service_notification_low_battery">Low battery: trip recording suspended</string>
+    <string name="service_notification_suspended_power_save">Disable Power Save? Trip recording suspended</string>
+    <string name="service_notification_suspended_airplane_mode">Disable Airplane Mode? Trip recording suspended</string>
+    <string name="service_notification_fleet_off_duty">Fleet: off duty</string>
+    <string name="service_notification_other">Trip recording suspended. Tap for more info.</string>
+    <string name="service_notification_degraded">Trip recording degraded</string>
+    <string name="service_notification_recording_reduced_power">Disable Power Save? Trip recording suspended</string>
+    <string name="service_notification_degraded_location">Location services must be enabled to properly record trips</string>
+    <string name="service_notification_degraded_location_permission">Location permission must be granted to properly record trips</string>
+    <string name="service_notification_degraded_activity_recognition_permission">Activity recognition permission must be granted to properly record trips</string>
+    <string name="service_notification_idle_tag_mode_power_save">Disable Power Save? Trips will record without location</string>
+    <string name="service_notification_idle_tag_mode_low_battery">Low battery. Trips will record without location</string>
+    <string name="service_notification_active_searching">Trip detection in process</string>
+    <string name="service_notification_no_auth">Logged out</string>
+    <string name="service_notification_bluetooth_warning">Bluetooth not active. Activate now?</string>
+
+    <string name="permission_required">Permission Required</string>
+    <string name="google_play_services_title_failure">Google Play Services Failure</string>
+    <string name="google_play_services_title_suspended">Google Play Services Suspended</string>
+    <string name="google_play_services_message">Drive detection may be unavailable. Tap to attempt resolution.</string>
+
+    <string name="location_service_required">Location services disabled</string>
+    <string name="btle_required">Bluetooth required</string>
+    <string name="service_requires_btle">Enable Bluetooth to use %1$s</string>
+    <string name="location_service_error_title">Location Services error</string>
+    <string name="location_service_error_content">If this persists, please try rebooting your phone</string>
+    <string name="power_save_enabled_title">Power Save Enabled</string>
+    <string name="power_save_enabled_content">Please disable power save in order to record trips</string>
+
+    <string name="trip_recording_suspended">Trip recording suspended</string>
+    <string name="trip_recording_suspended_power_save">Power Save must be disabled for %1$s to record trips</string>
+    <string name="trip_recording_suspended_low_battery">Low battery preventing %1$s from recording trips</string>
+    <string name="trip_recording_suspended_background_restricted">
+        Android is preventing %1$s from recording trips. To resolve the problem, tap this notification to go to your Battery Optimization Settings screen,
+        find %1$s in the "All" list, and turn off battery optimization for the app.</string>
+
+    <string name="trip_recording_failure">Trip recording failed</string>
+    <string name="trip_recording_failure_reason">Reason: %1$s</string>
+
+    <string name="service_requires_location_permissions">Location permissions required for %1$s to record trips</string>
+    <string name="service_requires_activity_recognition_permissions">Activity recognition permissions required for %1$s to record trips</string>
+    <string name="service_requires_gps">Location must be enabled for %1$s to record trips</string>
+    <string name="service_requires_netloc">Enable network location for %1$s to record trips</string>
+    <string name="service_requires_google_play">Enable Google Play Services to use %1$s</string>
+
+    <string name="service_crash_detected_title">CRASH DETECTED: Response needed</string>
+    <string name="service_crash_detected_message">Tap to reply within 1 min or we\'ll call you and send help.</string>
+</resources>
