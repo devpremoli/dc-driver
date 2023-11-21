@@ -23,9 +23,6 @@ dist/
 target/
 dist/
 
-# JetBrains IDE
-.idea/
-
 # Unit test reports
 TEST*.xml
 
@@ -55,3 +52,5 @@ local.properties
 artifactory.properties
 .gradle/
 build/
+# JetBrains IDE
+.idea/
